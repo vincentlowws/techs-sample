@@ -20,6 +20,7 @@ const { PrismaClient } = require('@prisma/client')
 const prisma = new PrismaClient();
 
 // Main landing page
+//postgresql://techupdb_user:oiOk2Q1jn6Efh19o3yNahqWq6xu8CYpU@dpg-csq5ft9u0jms73fnollg-a.singapore-postgres.render.com/techupdb
 app.get('/', async function(req, res) {
 
     // Try-Catch for any errors
