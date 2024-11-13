@@ -14,8 +14,10 @@ datasource db {
 }
 
 // Post model represents individual blog posts
-model Post {
-  id        Int       @id @default(autoincrement())
-  title     String
-  content   String
+model TechStack {
+  id          Int     @id @default(autoincrement())
+  name        String
+  image       String
+  description String
+  link        String
 }
